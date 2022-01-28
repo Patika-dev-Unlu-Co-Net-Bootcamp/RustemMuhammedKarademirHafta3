@@ -19,3 +19,4 @@ Veritabanı
 2. Tbl_Yoklama_Öğrenci tablosu altında **trg_YoklamayaGöreÖğrenciBasariDurumuGüncelleme** isimli trigger oluşturuldu.
 3. Öğrencinin kayıtlı olduğu ders tarihlerini kontrol ederek ders kayıt işlemi yapan **up_EğitimeÖğrenciEkleme** isimli store procedure oluşturuldu.
 4. Eğitim bazlı öğrencileri listeleyen **vw_EğitimeGöreÖğrencileriGetir** isimli view oluşturuldu.
+5. Aynı yapı ef code first olarak sadece model bazında oluşturuldu.
