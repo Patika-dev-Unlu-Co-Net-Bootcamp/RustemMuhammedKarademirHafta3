@@ -12,3 +12,10 @@ Veritabanı
 
 # Bonus
 - Aynı yapıyı ef code first olarak sadece model bazında oluşturun
+
+# Yapılanlar
+
+1. Eğitimler, öğrenciler, eğitmenler, asistanlar, öğrenci yoklamaları ve başarı durumlarına ait ilişkisel tablolar oluşturuldu.
+2. Tbl_Yoklama_Öğrenci tablosu altında **trg_YoklamayaGöreÖğrenciBasariDurumuGüncelleme** isimli trigger oluşturuldu.
+3. Öğrencinin kayıtlı olduğu ders tarihlerini kontrol eden **up_EğitimeÖğrenciEkleme** isimli store procedure oluşturuldu.
+4. Eğitim bazlı öğrencileri listeleyen **vw_EğitimeGöreÖğrencileriGetir** isimli view oluşturuldu.
